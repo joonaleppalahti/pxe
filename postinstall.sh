@@ -1,5 +1,4 @@
 #!/bin/sh
-echo "$0 started"
 sudo service puppet stop
 
 sudo cat <<EOF > /etc/puppet/puppet.conf
@@ -18,12 +17,10 @@ ssl_client_header = SSL_CLIENT_S_DN
 ssl_client_verify_header = SSL_CLIENT_VERIFY
 
 [agent]
-server = PXEMaster.local
+server = PXEMaster
 
 EOF
 
 sudo rm -r /var/lib/puppet/ssl
 sudo puppet agent --enable
 sudo service puppet restart
-
-echo "$0 done"
