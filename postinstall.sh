@@ -1,8 +1,6 @@
 #!/bin/sh
 echo "$0 started"
 sudo service puppet stop
-sudo hostnamectl set-hostname v$RANDOM$RANDOM$RANDOM
-sudo service avahi-daemon restart
 
 cat << EOF /etc/puppet/puppet.conf
 
