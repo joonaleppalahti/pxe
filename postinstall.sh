@@ -2,7 +2,7 @@
 echo "$0 started"
 sudo service puppet stop
 
-cat << EOF /etc/puppet/puppet.conf
+sudo cat <<EOF > /etc/puppet/puppet.conf
 
 [main]
 logdir=/var/log/puppet
