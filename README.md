@@ -3,5 +3,3 @@
 Saving my work here ¯\_(ツ)_/¯
 
 Forgot my hand \
-
-No GUI, just CLI
