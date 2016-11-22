@@ -12,3 +12,4 @@ Forgot my hand \
 * /etc/default/isc-dhcp-server
 * /etc/dhcp/dhcpd.conf
 * /var/lib/tftpboot/postinstall.sh
+* /var/lib/tftpboot/firstboot
