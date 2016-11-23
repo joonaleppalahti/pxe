@@ -47,4 +47,5 @@ sudo rm -r /var/lib/puppet/ssl
 sudo puppet agent --enable
 sudo service puppet restart
 
+sudo rm /etc/init.d/firstboot
 update-rc.d firstboot remove
